@@ -1,0 +1,253 @@
+* {
+    scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+/* ------ Global Style --------- */
+.text-orange {
+    color: #F96029;
+}
+
+.bg-orange{
+    background-color: #F96029;
+}
+
+.w-80 {
+    width: 80%;
+}
+h1{
+    font-weight: 900;
+}
+
+/* ----- Navigation Section ----- */
+#nav-section {
+    background-color: black;
+    color: white;
+}
+.img-lei-logo {
+    width: 4rem;
+}
+
+/* ----- Landing Section ----- */
+#landing {
+    width: 100%;
+    overflow: hidden;
+}
+
+.orange-line {
+    width: 90px;
+    height: 3px;
+    background-color: #F96029;
+    margin: auto;
+}
+
+.hero-text {
+    text-align: center;
+    margin-left: 0;
+}
+
+.hero-text h1 {
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.hero-text p {
+    font-family: "Zilla Slab", serif;
+    margin-top: 2rem;
+}
+
+.hero-image {
+    width: 300px;
+    height: 300px;
+    background-image: url("./images/lei-photo.png");
+    background-size: cover;
+    margin: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+#landing:hover .hero-image {
+    transform: scale(1.05);
+    
+}
+
+.hero-text .ms-5 {
+    margin-left: 0 !important;
+}
+
+
+
+
+/* ----- Media query for medium screens ----- */
+
+/* Media query for large screens */
+@media screen and (min-width: 768px) {
+    *{
+        font-size: 14px;
+    }
+    .hero-image {
+        height: 400px;
+        width: 480px;
+        background-position-x: -70px;
+        background-position-y: -58px;
+    }
+
+    .card{
+        text-align: left !important;
+    }
+
+    .hero-text {
+        margin-top: 5rem;
+        text-align: left;
+    }
+
+    .orange-line {
+        margin: 0;
+    }
+    #projects .content{
+        padding: 0 5rem;
+    }
+
+    
+    /* ------ About -------- */
+    .others .info p{
+        font-weight: 400;
+        font-size: 1.2em;
+        margin: 0;
+
+    }
+}
+
+
+/* ----- Media query for large screens ----- */
+@media screen and (min-width: 1200px) {
+*{
+    font-size: 16px;
+}
+.hero-image {
+    width: 850px;
+    height: 760px;
+    background-position-x: -175px;
+    background-position-y: -52px;
+  }
+
+.hero-text h1 {
+    font-size: 4.3em;
+}
+.hero-text {
+    text-align: left;
+}
+
+.orange-line {
+    margin: 0;
+    width: 200px;
+    height: 8px;
+    background-color: #F96029;
+}
+
+/*.spacer {
+    width: 100%;
+    height: 90px;
+}*/
+
+.hero-text .ms-5 {
+    margin-left: 5rem !important;
+}
+}
+
+
+/* ----- Projects Section ----- */
+.card-title{
+    font-weight: 700;
+}
+
+.card{
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.img-card {
+    height: 12rem;
+    margin: 1rem 0;
+}
+.card-img-top{
+    border: 1px solid #000
+}
+
+
+/* ----- Tools Section ----- */
+.img-tool {
+    width: 120px;
+    height: 120px;
+}
+
+.img-tool.smaller {
+    width: 100px;
+    height: 100px;
+}
+
+.item {
+    border-radius: 10px;
+    border: 3px ridge #ffa500;
+    margin: 1rem;
+    margin-top: 0;
+    padding: 1rem;
+}
+
+
+
+/* ----- Contact SEction ----- */
+.btn-contact {
+    color: white;
+    background-color: #ffa500;
+    /* transition: all 0.3s ease-in-out; */
+}
+
+.btn-contact:hover {
+    color: white;
+    border: 1px solid #ffa500;
+}
+
+.map {
+    border:0;
+    width: 100%;
+    height: 80%
+}
+
+.socmed-icon{
+    color: #FFFFFF;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #212529;
+    border-radius: 50%;
+    font-size: 1.25em;
+    transition:all 0.3s ease-in-out;
+}
+
+.socmed-icon:hover{
+    background-color: #ffa500;
+    color: #000;
+}
+.socmed-wrapper a{
+    text-decoration: none;
+}
+
+
+/* ----- Footer ----- */
+footer {
+    font-size: 0.75em;
+}
+.footer-bg {
+    background-color: #ffa500;
+    padding-bottom: 5px;
+    margin-bottom: 0;
+}

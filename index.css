@@ -6,6 +6,7 @@
 body {
     overflow-x: hidden;
 }
+
 /* ------ Global Style --------- */
 .text-orange {
     color: #F96029;
@@ -18,6 +19,7 @@ body {
 .w-80 {
     width: 80%;
 }
+
 h1{
     font-weight: 900;
 }
@@ -30,6 +32,7 @@ h1{
 .img-lei-logo {
     width: 4rem;
 }
+
 
 /* ----- Landing Section ----- */
 #landing {
@@ -111,15 +114,21 @@ h1{
     }
 
     
-    /* ------ About -------- */
-    .others .info p{
-        font-weight: 400;
-        font-size: 1.2em;
-        margin: 0;
-
+    /* ------ About Me Section ------ */
+.others .info p{
+    font-weight: 400;
+     font-size: 1em;
+     margin: 0;
     }
 }
 
+#about .self-intro {
+    font-family: "Zilla Slab", serif;
+}
+
+.trainings, .skills {
+    color: white;
+}
 
 /* ----- Media query for large screens ----- */
 @media screen and (min-width: 1200px) {
@@ -198,8 +207,12 @@ h1{
     margin: 1rem;
     margin-top: 0;
     padding: 1rem;
+    transition: transform 0.3s ease;
 }
 
+.item:hover {
+  transform: scale(1.1); 
+}
 
 
 /* ----- Contact SEction ----- */
@@ -240,6 +253,7 @@ h1{
 .socmed-wrapper a{
     text-decoration: none;
 }
+
 
 
 /* ----- Footer ----- */

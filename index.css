@@ -181,7 +181,8 @@ h1{
     margin: 1rem 0;
 }
 .card-img-top{
-    border: 1px solid #000
+    border: 2px solid white;
+    border-radius: 10px;
 }
 
 

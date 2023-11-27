@@ -58,7 +58,6 @@ h1{
 }
 
 .hero-text p {
-    font-family: "Zilla Slab", serif;
     margin-top: 2rem;
 }
 
@@ -120,10 +119,6 @@ h1{
      font-size: 1em;
      margin: 0;
     }
-}
-
-#about .self-intro {
-    font-family: "Zilla Slab", serif;
 }
 
 .trainings, .skills {

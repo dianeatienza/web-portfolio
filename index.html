@@ -25,6 +25,10 @@
 
     <!-- Favicon Link-->
     <link rel="icon" href="images/favicon-logo.ico">
+
+    <!-- Animation Link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
   </head>
   <body>
 
@@ -68,7 +72,7 @@
     <section id="landing" class="container mt-5">
       <div class="row mt-5">
         <div class="col-md-6 align-self-center order-2 order-md-1 hero-text">
-          <div class="ms-5">
+          <div class="ms-5" data-aos="fade-right" >
              <div>
                 <h1 class="text-uppercase mb-0">Lei Atienza</h1>
               <div class="orange-line"></div>
@@ -93,10 +97,10 @@
     <section id="about" class="text-white bg-dark py-5">
       <div class="container">
         <h1 class="text-uppercase text-center mb-5">About Me</h1>
-        <p class="mx-auto text-center w-75 self-intro">Ever since I was young, I've had a strong desire to make a difference. Perhaps that's why I initially pursued a career in education. However, as time passes and I become more immersed in the world of technology, I've developed a deep appreciation for innovation. Teaching will always hold a special place in my heart, but alongside that, I've developed a passion for web design and development. Even as I transition into a different career, my mission remains unchanged: to continue making a difference, this time by contributing to the creation of a better future through my passion for innovation.</p>
+        <p class="mx-auto text-center w-75 self-intro" data-aos="fade-up">Ever since I was young, I've had a strong desire to make a difference. Perhaps that's why I initially pursued a career in education. However, as time passes and I become more immersed in the world of technology, I've developed a deep appreciation for innovation. Teaching will always hold a special place in my heart, but alongside that, I've developed a passion for web design and development. Even as I transition into a different career, my mission remains unchanged: to continue making a difference, this time by contributing to the creation of a better future through my passion for innovation.</p>
 
         <div class="row p-5">
-          <div class="col-12 col-md-6">
+          <div class="col-12 col-md-6" data-aos="fade-up-right">
             <div class="title text-orange fw-bold display-6 text-lg mb-3">Education</div>
 
             <div class="education-item mb-5">
@@ -122,7 +126,7 @@
             </div>
 
           </div>
-          <div class="col-12 col-md-6 others bg-orange text-dark">
+          <div class="col-12 col-md-6 others bg-orange text-dark" data-aos="flip-right">
             <div class="trainings p-3">
               <div class="title fw-bold display-6 mb-3 ">Trainings</div>
 
@@ -151,7 +155,7 @@
           </div>
         </div>
 
-        <div class="row p-5">
+        <div class="row p-5" data-aos="fade-up">
           <div class="col-12 col-md-6 offset-md-3 text-center">
             <div class="title display-6 text-orange fw-bold mb-5">Work Experience</div>
 
@@ -274,7 +278,7 @@
         <!-- Debugging -->
         <div class="row justify-content-center">
           
-                  <div class="card card-basics bg-transparent border-0 col-md-6 col-lg-4 col-12 text-white text-center mb-5">
+                  <div class="card card-basics bg-transparent border-0 col-md-6 col-lg-4 col-12 text-white text-center mb-5" data-aos="flip-left">
                     <div class="card-content w-80 mx-auto">
                       <img src="./images/movie-land.png" class="card-img-top img-card" alt="screenshot of movie land app">
                       <div class="card-body p-0">
@@ -287,7 +291,7 @@
                     </div>
                   </div>
 
-                  <div class="card card-basics bg-transparent border-0 col-md-6 col-lg-4  col-12 text-white text-center mb-5">
+                  <div class="card card-basics bg-transparent border-0 col-md-6 col-lg-4  col-12 text-white text-center mb-5" data-aos="flip-left">
                     <div class="card-content w-80 mx-auto">
                       <img src="./images/e-commerce.png" class="card-img-top img-card" alt="screenshot of e-commerce's landing page">
                       <div class="card-body p-0">
@@ -295,14 +299,20 @@
                         <h6 class="card-subtitle my-2 text-center"><u>Tech Stack: HTML, CSS, JavaScript, & MERN</u></h6>
                         <p class="card-text fw-light">Want to take a look at this project? </p>
                         <p>Credentials that you may use:</p>
-                        <p>userb@mail.com | userb</p>
+                        <p class="m-0">userb@mail.com | userb</p>
                         <p>admin24@mail.com | admin24</p>
-                        <a href="http://zuitt-bootcamp-prod-328-6105-atienza.s3-website.us-east-1.amazonaws.com/" target="_blank" class="btn btn-warning fw-bold w-100">Click Me!</a>
+                        <div>
+                          <a href="https://github.com/dianeatienza/e-commerce-api" target="_blank" class="btn btn-secondary fw-bold w-100 my-3">E-commerce API</a>
+                        </div>
+                        <div>
+                          <a href="http://zuitt-bootcamp-prod-328-6105-atienza.s3-website.us-east-1.amazonaws.com/" target="_blank" class="btn btn-warning fw-bold w-100">Click Me!</a>
+                        </div>
+                        
                       </div>
                     </div>
                   </div>
 
-                  <div class="card card-basics bg-transparent border-0 col-md-6 col-lg-4 col-12 text-white text-center mb-5">
+                  <div class="card card-basics bg-transparent border-0 col-md-6 col-lg-4 col-12 text-white text-center mb-5" data-aos="flip-left">
                     <div class="card-content w-80 mx-auto">
                       <img src="./images/ph-weather.png" class="card-img-top img-card" alt="screenshot of weather app">
                       <div class="card-body p-0">
@@ -381,9 +391,9 @@
             
           </form>
 
-          <div class="text-center py-5 mt-auto">
+          <div class="text-center py-5 mt-auto" data-aos="fade-left">
             <div>
-              <h2 class="mb-5">Follow me</h2>
+              <h2 class="mb-3">Follow me</h2>
               <div class="d-flex justify-content-center socmed-wrapper gap-4">
                 <a href="https://www.linkedin.com/in/lei-diane-atienza-172684272/"  target="_blank">
                   <div class="socmed-icon">
@@ -455,5 +465,11 @@
       integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Animation Link -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
